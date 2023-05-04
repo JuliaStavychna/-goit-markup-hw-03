@@ -309,3 +309,99 @@ p {
   margin: auto;
 }
 /* Features */
+.features {
+  padding: 120px 0;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+.features-name {
+  margin-bottom: 8px;
+}
+/* Examples */
+.examples {
+  padding-bottom: 120px;
+}
+.examples.title {
+  margin-bottom: 72px;
+}
+.examples-list {
+  display: flex;
+  gap: 24px;
+}
+.examples-item {
+  flex-basis: calc((100% - 3 * 16px) / 3);
+}
+/* Team */
+.team {
+  padding: 120px 0;
+}
+.team-title {
+  margin-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.teammate {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.teammate-container {
+  padding: 32px 16px;
+}
+.teammate-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.teammate-description {
+  text-align: center;
+}
+/* Footer */
+.footer {
+  padding: 100px 0;
+}
+.footer-description {
+  max-width: 264px;
+}
+/* Projects */
+.filters {
+  padding: 96px 0 120px;
+}
+.filters-list {
+  outline: orange;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.filter-button {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.filter-button:hover,
+.filter-button:focus {border: 1px solid transparent;}
+
+.projects-list {  outline: tomato;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+
+}
+.projects-item {
+  width: calc((100% - 48px) / 3);
+}
+.project-card.container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.project-title {
+  margin-bottom: 8px;
+}
