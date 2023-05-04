@@ -60,6 +60,8 @@
   /* Address */
   .address {
     font-style: normal;
+    line-height: 1.5;
+  margin-left: auto;
   }
   .adress.list {
     list-style: none;
