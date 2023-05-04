@@ -191,6 +191,17 @@
     line-height: 1.5;
     color: var(--cloud-color);
   }
+  .logo.link.footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: var(--additional-color);
+    letter-spacing: 0.03em;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
   /* Portfolio */
   /* Hidden Title */
   .hidden-title {
@@ -257,10 +268,8 @@ p {
   padding: 0;
 }
 /* Header */
-.logo.link {
-  display: inline-block;
-}
-.logo.link.box {
+
+.webstudio.header {
   margin-right: 76px;
 }
 .header {
@@ -381,8 +390,10 @@ p {
   max-width: 264px;
 }
 .logo.link.footer {
-  margin-bottom: 72px;
+  margin-bottom: 16px;
 }
+.logo.link.footer {
+  display: inline-block;}
 /* Projects */
 .filters {
   padding: 96px 0 120px;
