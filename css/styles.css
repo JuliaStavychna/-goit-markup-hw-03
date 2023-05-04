@@ -266,7 +266,7 @@ p {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header.container {
+.header.container.container {
   display: flex;
 }
 .container {
@@ -292,7 +292,7 @@ p {
   gap: 40px;
   display: flex;
 }
-.adress.list {
+.adress-list.list {
   display: flex; 
   gap: 40px;
 }
@@ -333,7 +333,7 @@ p {
 .examples {
   padding-bottom: 120px;
 }
-.examples.title {
+.examples-title {
   margin-bottom: 72px;
 }
 .examples-list {
