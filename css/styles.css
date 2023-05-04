@@ -266,7 +266,7 @@ p {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header.container.container {
+.header-container.container {
   display: flex;
 }
 .container {
@@ -288,15 +288,15 @@ p {
 .nav-list.link {
   padding: 24px 0;
 }
-.adress {
+.address {
   gap: 40px;
   display: flex;
 }
-.adress-list.list {
+.address-list.list {
   display: flex; 
   gap: 40px;
 }
-.adress-item {
+.address-item {
   padding: 24px 0;
 }
 /* Hero */
@@ -360,7 +360,7 @@ p {
   gap: 24px;
 }
 .teammate {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .teammate-container.container {
