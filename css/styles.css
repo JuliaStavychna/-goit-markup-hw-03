@@ -418,7 +418,7 @@ p {
 .filter-button:hover,
 .filter-button:focus {border: 1px solid transparent;}
 
-.projects-list {  outline: tomato;
+.projects-list.list {  outline: tomato;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
