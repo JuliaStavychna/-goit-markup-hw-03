@@ -196,7 +196,7 @@
     line-height: 1.5;
     color: var(--cloud-color);
   }
-  .logo.link.footer {
+  .logotype-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -394,10 +394,10 @@ p {
 .footer-description {
   max-width: 264px;
 }
-.logo.link.footer {
+.logotype-footer {
   margin-bottom: 16px;
 }
-.logo.link.footer {
+.webstudio.footer {
   display: inline-block;}
 /* Projects */
 .filters {
