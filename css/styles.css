@@ -399,8 +399,8 @@ p {
 .webstudio-footer {
   display: inline-block;
 }
-.footer-container {
-  display: flex;
+.footer-container.container {
+  display: block;
 }
 /* Projects */
 .filters {
