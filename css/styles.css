@@ -392,9 +392,23 @@ p {
 }
 .footer-description {
   max-width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
 }
 .logotype-footer {
   margin-bottom: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;
+  display: inline-block;
 }
 .webstudio-footer {
   display: inline-block;
