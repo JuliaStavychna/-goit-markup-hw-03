@@ -195,6 +195,13 @@ img {
 .footer {
   background: var(--basic-color);
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .webstudio-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
