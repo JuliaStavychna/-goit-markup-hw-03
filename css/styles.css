@@ -119,77 +119,12 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* Features */
-.features > ul {
-  list-style-type: none;
-}
-.features-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--basic-color);
-}
-.features-description {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--text-color);
-}
-/* Examples */
-.examples > ul {
-  list-style-type: none;
-}
-.examples-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--basic-color);
-}
 
-/* Portfolio */
-/* Hidden Title */
-.hidden-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-
-/* Filter Buttons */
-.filters > ul {
-  list-style-type: none;
-}
-.filters-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--additional-color);
-  background: var(--cloud-color);
-  border: 1px solid var(--accent-color);
-  border-radius: 4px;
-  cursor: pointer;
-}
-.filters-button:hover,
-.filters-button:focus {
-  background: var(--button-color);
-  color: var(--white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
 /* Blocks */
 ul,
 h1,
@@ -258,6 +193,21 @@ p {
   margin: auto;
 }
 /* Features */
+.features > ul {
+  list-style-type: none;
+}
+.features-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--basic-color);
+}
+.features-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
 .features {
   padding: 120px 0;
 }
@@ -272,6 +222,17 @@ p {
   margin-bottom: 8px;
 }
 /* Examples */
+.examples > ul {
+  list-style-type: none;
+}
+.examples-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--basic-color);
+}
 .examples {
   padding-bottom: 120px;
 }
@@ -405,7 +366,42 @@ p {
   text-transform: uppercase;
   text-decoration: none;
 }
+/* Portfolio */
+/* Hidden Title */
+.hidden-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
 /* Projects */
+/* Filter Buttons */
+.filters > ul {
+  list-style-type: none;
+}
+.filters-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--additional-color);
+  background: var(--cloud-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filters-button:hover,
+.filters-button:focus {
+  background: var(--button-color);
+  color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
 .filters {
   padding: 96px 0 120px;
 }
@@ -429,11 +425,10 @@ p {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  background: #F4F4FD;
-  color:#4d5ae5;
+  background: #f4f4fd;
+  color: #4d5ae5;
   cursor: pointer;
 }
-
 
 .filter-button:hover,
 .filter-button:focus {
