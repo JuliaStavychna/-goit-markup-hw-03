@@ -334,9 +334,6 @@ p {
   color: #4d5ae5;
   display: inline-block;
 }
-.webstudio-footer {
-  display: inline-block;
-}
 .footer {
   background: var(--basic-color);
 }
