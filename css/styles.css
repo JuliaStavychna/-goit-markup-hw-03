@@ -27,6 +27,7 @@ img {
   letter-spacing: 0.03em;
   align-items: center;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .studio {
   font-family: "Raleway", sans-serif;
@@ -192,7 +193,6 @@ img {
   background: var(--basic-color);
 }
 .footer-container {
-  display: flex;
   align-items: baseline;
   width: 1158px;
   margin: 0 auto;
