@@ -428,9 +428,7 @@ p {
 .webstudio-footer {
   display: inline-block;
 }
-.footer-container.container {
-  display: block;
-}
+
 /* Projects */
 .filters {
   padding: 96px 0 120px;
